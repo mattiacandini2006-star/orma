@@ -1,5 +1,6 @@
 name: Apertura pagina
 icon: headline
+preview: orma-page-opening
 fields:
   title:
     label: Titolo

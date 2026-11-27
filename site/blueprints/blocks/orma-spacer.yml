@@ -1,5 +1,6 @@
 name: Separatore
 icon: divider
+preview: line
 fields:
   style:
     label: Stile

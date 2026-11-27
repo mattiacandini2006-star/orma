@@ -34,6 +34,7 @@ tabs:
           - orma-text
           - orma-image
           - orma-gallery
+          - orma-archive-grid
           - orma-spacer
 
   subpages:
@@ -45,7 +46,9 @@ tabs:
           pages:
             label: Sottopagine
             type: pagelist
-            templates: default
+            templates:
+              - progetto
+              - default
       - width: 1/2
         fields:
           files:

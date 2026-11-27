@@ -1,5 +1,7 @@
 name: Titolo
 icon: title
+wysiwyg: true
+preview: heading
 fields:
   level:
     label: Livello

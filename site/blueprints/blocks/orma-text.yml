@@ -1,5 +1,7 @@
 name: Testo
 icon: text
+wysiwyg: true
+preview: text
 fields:
   text:
     label: Testo (Monument Grotesk)

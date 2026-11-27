@@ -1,5 +1,6 @@
 name: Galleria
 icon: images
+preview: gallery
 fields:
   images:
     label: Immagini

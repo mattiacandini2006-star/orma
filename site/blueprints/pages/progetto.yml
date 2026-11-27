@@ -1,0 +1,57 @@
+title: Progetto Archivio
+
+tabs:
+  content:
+    label: Contenuto
+    icon: text
+    fields:
+      cover:
+        label: Immagine principale
+        type: filepicker
+        query: model.images
+        multiple: false
+        width: 1/2
+      students:
+        label: Nomi degli studenti
+        type: text
+        placeholder: es. Mario Rossi, Lucia Bianchi
+        width: 1/2
+      layout:
+        label: Layout pagina
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/3, 2/3"
+          - "2/3, 1/3"
+          - "1/3, 1/3, 1/3"
+          - "1/4, 3/4"
+          - "3/4, 1/4"
+          - "1/4, 1/4, 1/4, 1/4"
+        settings:
+          fields:
+            theme:
+              label: Tema sezione
+              type: select
+              default: light
+              empty: false
+              options:
+                light: Sfondo bianco / testo nero
+                dark: Sfondo nero / testo bianco
+        fieldsets:
+          - orma-page-opening
+          - orma-heading
+          - orma-large-text
+          - orma-text
+          - orma-image
+          - orma-gallery
+          - orma-archive-grid
+          - orma-spacer
+
+  files:
+    label: File
+    icon: images
+    fields:
+      files:
+        label: File del progetto
+        type: filelist

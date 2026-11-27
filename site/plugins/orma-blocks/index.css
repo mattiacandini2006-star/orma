@@ -1,0 +1,59 @@
+.k-block-orma-opening {
+  min-height: 110px;
+  padding: 16px 20px 30px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #333333 0%, #333333 70%, #ffffff 100%);
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.k-block-orma-opening-title {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.k-block-orma-archive-grid {
+  padding: 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.k-block-orma-archive-grid-header {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.k-block-orma-archive-grid-tiles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.k-block-orma-archive-grid-thumb {
+  aspect-ratio: 1 / 1;
+  background: #ececec;
+  border-radius: 2px;
+  margin-bottom: 6px;
+}
+
+.k-block-orma-archive-grid-line {
+  height: 8px;
+  background: #d8d8d8;
+  border-radius: 2px;
+  margin-bottom: 4px;
+}
+
+.k-block-orma-archive-grid-line.is-short {
+  width: 65%;
+  margin-bottom: 0;
+}
