@@ -11,4 +11,5 @@
 - **Colori**: bianco (`#ffffff`) e nero del sito (`#333333`, `--color-black`).
 - **Font**: `ABC Monument Grotesk` (default/body) e `ABC Maxi Round` (titolazioni e testi grandi).
 - **Margini globali**: `40px` (`--page-padding: 40px`).
+- **Griglia di impaginazione**: dentro i margini da `40px`, griglia invisibile a **12 colonne** con distanza (gutter) tra colonne di `20px` (`--grid-gutter: 20px`). Non deve mai essere visibile in frontend e va usata per impaginare solo gli elementi esplicitamente richiesti in griglia.
 - **Sfumatura standard da Figma**: ogni volta che l'utente richiede la sfumatura del sito, applicare il token `--orma-fade-shadow` (`0 0 75px 75px var(--color-black)`, corrispondente ai parametri Figma `x=0, y=0, blur=75, spread=75`).
