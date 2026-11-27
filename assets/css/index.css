@@ -141,8 +141,8 @@ a {
 /* Page Opening Block */
 .orma-page-opening {
   width: 100%;
-  height: 30vh;
-  min-height: 220px;
+  height: 50vh;
+  min-height: 320px;
   background: linear-gradient(
     to bottom,
     var(--color-black) 0%,
@@ -152,7 +152,7 @@ a {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 40px var(--page-padding) 10vh;
+  padding: 40px var(--page-padding) 16vh;
 }
 
 .orma-page-opening__title {
