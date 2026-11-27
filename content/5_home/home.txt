@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+Layout: [{"attrs":{"theme":"light"},"columns":[{"blocks":[{"content":{"level":"h1","text":"Lascia il segno","align":""},"id":"4c66da42-eb43-47a4-959b-e207906eea45","isHidden":false,"type":"orma-heading"}],"id":"86b606f9-844e-4adc-9309-a8f3761f84c9","width":"1/1"}],"id":"b697b080-d895-4a14-a319-5654df45e36f"}]
+
+----
+
+Uuid: nmr3oz1rok707lxb

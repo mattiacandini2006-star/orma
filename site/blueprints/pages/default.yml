@@ -28,6 +28,7 @@ tabs:
                 light: Sfondo bianco / testo nero
                 dark: Sfondo nero / testo bianco
         fieldsets:
+          - orma-page-opening
           - orma-heading
           - orma-large-text
           - orma-text

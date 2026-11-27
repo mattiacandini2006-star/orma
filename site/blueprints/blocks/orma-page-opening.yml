@@ -1,0 +1,7 @@
+name: Apertura pagina
+icon: headline
+fields:
+  title:
+    label: Titolo
+    type: text
+    placeholder: Lascia vuoto per usare il titolo della pagina
