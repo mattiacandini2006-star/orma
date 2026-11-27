@@ -12,8 +12,9 @@ panel.plugin("orma/blocks", {
     "orma-archive-grid": {
       computed: {
         sourceLabel() {
-          if (this.content.parent && this.content.parent.length) {
-            return this.content.parent[0].text || "Archivio";
+          const picked = this.content.source || this.content.parent;
+          if (picked && picked.length) {
+            return picked[0].text || "Archivio";
           }
           return "Archivio";
         }

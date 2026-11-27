@@ -2,7 +2,7 @@ name: Griglia Archivio
 icon: grid
 preview: orma-archive-grid
 fields:
-  parent:
+  source:
     label: Pagina sorgente
     type: pagepicker
     multiple: false

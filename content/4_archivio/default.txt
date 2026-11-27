@@ -2,6 +2,10 @@ Title: Archivio
 
 ----
 
+Layout: [{"attrs":{"theme":"light"},"columns":[{"blocks":[{"content":{"parent":[]},"id":"7c8a8e01-6073-4d91-8939-9b7aa8dbe5cd","isHidden":false,"type":"orma-archive-grid"}],"id":"7d06de0b-a390-4fa5-aea5-530d07cb7b4c","width":"1/1"}],"id":"90fd6209-0c18-4900-ab1b-10f96fd141de"}]
+
+----
+
 Text: 
 
 ----

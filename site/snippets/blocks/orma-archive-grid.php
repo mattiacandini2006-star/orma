@@ -1,5 +1,7 @@
 <?php
-$archivePage = $block->parent()->toPage() ?? $site->find('archivio');
+$archivePage = $block->content()->get('source')->toPage()
+  ?? $block->content()->get('parent')->toPage()
+  ?? $site->find('archivio');
 $items = $archivePage ? $archivePage->children()->listed() : null;
 if ($items && $items->isNotEmpty()):
 ?>
