@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'ABC Monument Grotesk';
   src: url('../fonts/ABCMonumentGroteskWidthsVariableTrial.ttf') format('truetype');
-  font-weight: 100 900;
+  font-weight: 200 1000;
   font-style: normal;
   font-display: swap;
 }
@@ -155,6 +155,7 @@ a {
   display: inline-block;
   font-family: var(--font-body);
   font-weight: 400;
+  font-variation-settings: 'wght' 400;
   font-size: 15px;
   line-height: 1;
   text-transform: uppercase;
@@ -164,9 +165,11 @@ a {
 }
 
 .site-menu a:hover,
+.site-menu a:focus-visible,
 .site-menu a.is-active {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  font-weight: 900;
+  font-variation-settings: 'wght' 900;
+  text-decoration: none;
 }
 
 /* Main & Layout Grid */
