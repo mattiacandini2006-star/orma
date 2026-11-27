@@ -1,0 +1,17 @@
+<?php
+
+use Kirby\Blueprint\UserBlueprint;
+
+/**
+ * UserBlueprint
+ */
+return [
+	'fields' => [
+		'name'    => fn (UserBlueprint $blueprint) => $blueprint->name(),
+		'options' => fn (UserBlueprint $blueprint) => $blueprint->options(),
+		'tabs'    => fn (UserBlueprint $blueprint) => array_values($blueprint->tabs()->toArray()),
+		'title'   => fn (UserBlueprint $blueprint) => $blueprint->title(),
+	],
+	'type'  => UserBlueprint::class,
+	'views' => [],
+];

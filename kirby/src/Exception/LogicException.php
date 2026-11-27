@@ -1,0 +1,16 @@
+<?php
+
+namespace Kirby\Exception;
+
+/**
+ * Thrown for invalid requests that can't work out
+ *
+ * @copyright Bastian Allgeier
+ * @license   https://opensource.org/licenses/MIT
+ */
+class LogicException extends Exception
+{
+	protected static string $defaultFallback = 'This task cannot be finished';
+	protected static int $defaultHttpCode = 400;
+	protected static string $defaultKey = 'logic';
+}
