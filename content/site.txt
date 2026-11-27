@@ -20,3 +20,7 @@ Menu:
   page:
     - 'page://nckhdpus16zol20l'
   label: Archivio
+
+----
+
+Logo: - 'file://xoco1q828ltticuv'

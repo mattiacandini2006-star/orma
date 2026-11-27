@@ -1,0 +1,7 @@
+name: Testo
+icon: text
+fields:
+  text:
+    label: Testo (Monument Grotesk)
+    type: writer
+    placeholder: Scrivi il contenuto…

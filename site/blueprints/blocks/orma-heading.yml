@@ -1,0 +1,26 @@
+name: Titolo
+icon: title
+fields:
+  level:
+    label: Livello
+    type: toggles
+    default: h2
+    empty: false
+    options:
+      h1: H1
+      h2: H2
+      h3: H3
+  text:
+    label: Testo del titolo
+    type: writer
+    inline: true
+    placeholder: Inserisci il titolo…
+  align:
+    label: Allineamento
+    type: toggles
+    default: left
+    empty: false
+    options:
+      left: Sinistra
+      center: Centro
+      right: Destra

@@ -1,0 +1,26 @@
+name: Immagine
+icon: image
+fields:
+  image:
+    label: Immagine
+    type: filepicker
+    query: model.images
+    multiple: false
+  alt:
+    label: Testo alternativo (alt)
+    type: text
+  caption:
+    label: Didascalia
+    type: writer
+    inline: true
+  ratio:
+    label: Proporzione
+    type: select
+    placeholder: Automatica
+    options:
+      1/1: "1:1"
+      4/3: "4:3"
+      3/2: "3:2"
+      16/9: "16:9"
+      3/4: "3:4"
+      2/3: "2:3"

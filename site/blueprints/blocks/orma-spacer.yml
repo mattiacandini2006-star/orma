@@ -1,0 +1,20 @@
+name: Separatore
+icon: divider
+fields:
+  style:
+    label: Stile
+    type: toggles
+    default: line
+    empty: false
+    options:
+      line: Linea
+      space: Spazio vuoto
+  size:
+    label: Altezza
+    type: toggles
+    default: medium
+    empty: false
+    options:
+      small: Piccolo
+      medium: Medio
+      large: Grande

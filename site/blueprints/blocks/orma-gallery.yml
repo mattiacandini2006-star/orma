@@ -1,0 +1,21 @@
+name: Galleria
+icon: images
+fields:
+  images:
+    label: Immagini
+    type: filepicker
+    query: model.images
+    multiple: true
+  columns:
+    label: Colonne
+    type: toggles
+    default: "2"
+    empty: false
+    options:
+      "2": "2"
+      "3": "3"
+      "4": "4"
+  caption:
+    label: Didascalia galleria
+    type: writer
+    inline: true

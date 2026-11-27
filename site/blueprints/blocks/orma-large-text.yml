@@ -1,0 +1,20 @@
+name: Testo grande
+icon: text
+fields:
+  text:
+    label: Testo grande (Maxi Round)
+    type: writer
+    marks:
+      - italic
+      - underline
+      - link
+    placeholder: Inserisci un testo di grandi dimensioni…
+  size:
+    label: Dimensione
+    type: toggles
+    default: medium
+    empty: false
+    options:
+      medium: Medio
+      large: Grande
+      xlarge: Extra grande

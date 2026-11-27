@@ -1,20 +1,52 @@
-title: Default Page
+title: Pagina
 
-fields:
-  text:
-    type: textarea
-    size: huge
-  pages:
-    type: pagelist
-    templates: default
-  files:
-    type: filelist
+tabs:
+  content:
+    label: Contenuto
+    icon: text
+    fields:
+      layout:
+        label: Layout pagina
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/3, 2/3"
+          - "2/3, 1/3"
+          - "1/3, 1/3, 1/3"
+          - "1/4, 3/4"
+          - "3/4, 1/4"
+          - "1/4, 1/4, 1/4, 1/4"
+        settings:
+          fields:
+            theme:
+              label: Tema sezione
+              type: select
+              default: light
+              empty: false
+              options:
+                light: Sfondo bianco / testo nero
+                dark: Sfondo nero / testo bianco
+        fieldsets:
+          - orma-heading
+          - orma-large-text
+          - orma-text
+          - orma-image
+          - orma-gallery
+          - orma-spacer
 
-columns:
-  - width: 2/3
-    fields:
-      - text
-  - width: 1/3
-    fields:
-      - pages
-      - files
+  subpages:
+    label: Sottopagine e File
+    icon: layers
+    columns:
+      - width: 1/2
+        fields:
+          pages:
+            label: Sottopagine
+            type: pagelist
+            templates: default
+      - width: 1/2
+        fields:
+          files:
+            label: File della pagina
+            type: filelist
