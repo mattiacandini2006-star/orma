@@ -27,3 +27,14 @@ tabs:
             label: Etichetta personalizzata
             type: text
             help: Opzionale. Se lasciata vuota, verrà usato il titolo della pagina.
+
+  settings:
+    label: Impostazioni
+    icon: cog
+    fields:
+      logo:
+        label: Logo del sito
+        type: filepicker
+        multiple: false
+        uploads: logo
+        help: Carica il logo che compare nell'header del sito (SVG, PNG, JPG o WebP).

@@ -1,1 +1,22 @@
 Title: Orma
+
+----
+
+Menu:
+
+-
+  page:
+    - 'page://y7jthbntwxrgigem'
+  label: Libreria
+-
+  page:
+    - 'page://ikhnnyl2ss4pzdoi'
+  label: About
+-
+  page:
+    - 'page://d37nwcistngskloo'
+  label: Risma
+-
+  page:
+    - 'page://nckhdpus16zol20l'
+  label: Archivio

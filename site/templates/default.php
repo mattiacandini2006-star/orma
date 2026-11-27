@@ -6,9 +6,7 @@
   <title><?= $page->title()->esc() ?> — <?= $site->title()->esc() ?></title>
 </head>
 <body>
-  <header>
-    <?php snippet('menu') ?>
-  </header>
+  <?php snippet('header') ?>
 
   <main>
     <h1><?= $page->title()->esc() ?></h1>
