@@ -117,6 +117,18 @@ a {
   height: 40px;
   width: auto;
   object-fit: contain;
+  transform-origin: left center;
+  transition: transform 0.15s ease;
+}
+
+.site-logo:not(.is-home):hover img,
+.site-logo:not(.is-home):active img,
+.site-logo:not(.is-home):focus-visible img {
+  transform: scale(1.05);
+}
+
+.site-logo.is-home img {
+  transform: none;
 }
 
 .site-menu,
