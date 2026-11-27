@@ -19,9 +19,10 @@
   --color-white: #ffffff;
   --font-body: 'ABC Monument Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'ABC Maxi Round', -apple-system, BlinkMacSystemFont, sans-serif;
-  --header-height: 72px;
+  --header-height: 120px;
   --page-padding: 40px;
   --grid-gutter: 24px;
+  --orma-fade-shadow: 0 0 75px 75px var(--color-black);
 }
 
 *,
@@ -68,6 +69,7 @@ a {
   height: var(--header-height);
   background-color: var(--color-black);
   color: var(--color-white);
+  box-shadow: var(--orma-fade-shadow);
   display: flex;
   align-items: center;
   justify-content: space-between;
