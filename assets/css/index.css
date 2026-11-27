@@ -120,7 +120,7 @@ a {
   transform: scale(1);
   transform-origin: center center;
   will-change: transform;
-  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.48s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .site-logo:not(.is-home):hover img,
@@ -176,15 +176,12 @@ a {
   text-decoration: none;
   color: var(--color-white);
   white-space: nowrap;
-  transition:
-    font-weight 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-    font-variation-settings 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: font-variation-settings 0.48s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .site-menu a:hover,
 .site-menu a:focus-visible,
 .site-menu a.is-active {
-  font-weight: 900;
   font-variation-settings: 'wght' 900;
   text-decoration: none;
 }
