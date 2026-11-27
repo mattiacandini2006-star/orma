@@ -11,4 +11,4 @@
 - **Colori**: bianco (`#ffffff`) e nero del sito (`#333333`, `--color-black`).
 - **Font**: `ABC Monument Grotesk` (default/body) e `ABC Maxi Round` (titolazioni e testi grandi).
 - **Margini globali**: `40px` (`--page-padding: 40px`).
-- **Sfumatura standard da Figma**: ogni volta che l'utente richiede la sfumatura del sito, applicare l'ombra/sfumatura con `blur: 75px` e `spread: 75px` in `#333333` (`--orma-fade-shadow: 0 0 75px 75px var(--color-black)`), dal lato inferiore verso il basso.
+- **Sfumatura standard da Figma**: ogni volta che l'utente richiede la sfumatura del sito, applicare il token `--orma-fade-shadow` (`0 10px 45px 35px var(--color-black), 0 25px 75px 60px var(--color-black)`), calibrato sull'intensità pesante di Figma dal lato inferiore verso il basso.

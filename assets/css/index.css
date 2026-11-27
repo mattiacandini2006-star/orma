@@ -22,7 +22,9 @@
   --header-height: 120px;
   --page-padding: 40px;
   --grid-gutter: 24px;
-  --orma-fade-shadow: 0 0 75px 75px var(--color-black);
+  --orma-fade-shadow:
+    0 10px 45px 35px var(--color-black),
+    0 25px 75px 60px var(--color-black);
 }
 
 *,
