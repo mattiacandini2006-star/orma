@@ -1,5 +1,29 @@
 title: Site
 
-fields:
+tabs:
   pages:
-    type: pagelist
+    label: Pagine
+    icon: page
+    fields:
+      pages:
+        label: Pagine del sito
+        type: pagelist
+
+  menu:
+    label: Menu
+    icon: bars
+    fields:
+      menu:
+        label: Menu di navigazione
+        type: structure
+        empty: Nessuna voce nel menu
+        fields:
+          page:
+            label: Pagina
+            type: pagepicker
+            multiple: false
+            required: true
+          label:
+            label: Etichetta personalizzata
+            type: text
+            help: Opzionale. Se lasciata vuota, verrà usato il titolo della pagina.
